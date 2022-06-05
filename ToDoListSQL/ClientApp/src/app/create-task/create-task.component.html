@@ -1,0 +1,8 @@
+<h2>Add a new task</h2>
+<p>Task Name</p>
+<input type="text" [(ngModel)]="newTask.taskName">
+
+<p>Add a checkmark if this has been completed</p> <input type="checkbox" [(ngModel)]="newTask.isCompleted">
+
+<br>
+<button (click)="CreateTask()">Add Task</button>

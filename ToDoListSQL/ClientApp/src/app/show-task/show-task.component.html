@@ -1,0 +1,5 @@
+<button (click)="showAllTasks()">Show Tasks</button>
+
+<div *ngFor="let r of results">
+    <p>{{r.id}} {{r.taskName}} | {{r.isCompleted}}</p>
+</div>

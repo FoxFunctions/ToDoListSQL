@@ -1,0 +1,10 @@
+<h3>Update Task</h3>
+<p>Enter the ID of the task you would like to update</p>
+<input type="number" [(ngModel)]="id">
+<p>Updated Task Name</p>
+<input type="text" [(ngModel)]="updatedTask.taskName">
+<p>Check the box if this task has been completed</p>
+<input type="checkbox" [(ngModel)]="updatedTask.isCompleted">
+<br>
+<button (click)="UpdateTask()">Update Task</button>
+
